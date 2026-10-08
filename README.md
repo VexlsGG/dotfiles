@@ -28,7 +28,7 @@ A clean, keyboard-centric, distraction-free macOS workstation setup designed for
 
 On any new Mac, clone this repository and run the setup script:
 
-    git clone https://github.com/<your-username>/dotfiles.git ~/dotfiles
+    git clone https://github.com/vexlsgg/dotfiles.git ~/dotfiles
     cd ~/dotfiles
     chmod +x install.sh
     ./install.sh
