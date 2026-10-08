@@ -1,0 +1,53 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "builtin",
+    "source": "apple",
+    "color": {
+      "1": "cyan"
+    },
+    "padding": {
+      "top": 1,
+      "left": 1,
+      "right": 2
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "host",
+      "key": "Model",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "cpu",
+      "key": "CPU",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "gpu",
+      "key": "GPU",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "memory",
+      "key": "RAM",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "disk",
+      "key": "Disk",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "uptime",
+      "key": "Up",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}
